@@ -6,7 +6,7 @@ const { ALLOWED_NUMBERS } = process.env;
 (async () => {
     const config = {
         allowedNumbers: ALLOWED_NUMBERS ? ALLOWED_NUMBERS.split(',') : null,
-        browserName: 'BPS Kabupaten Malang'
+        browserName: 'Chat Bot Matic Fortune'
     }
     const pepesan = Pepesan.init(router, config)
     await pepesan.connect()

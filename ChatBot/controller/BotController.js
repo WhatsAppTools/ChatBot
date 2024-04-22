@@ -120,18 +120,18 @@ module.exports = class BotController extends Controller {
 
     // --------- FUNCTION BUKAN MENU
     async pstOnlineMenu(request) {
-      return this.reply("*Pelayanan Statistik Terpadu (PST) Online 📲* \n\nBerikut link website seputar Publikasi PST Online : http://perpustakaan.bps.go.id \n• Ketik *ex* untuk keluar")
+      return this.reply("*Apa itu Matic Fortune? 📲* \n\nIni adalah link video singkat yang bisa anda simak sebagai pembuka : https://www.youtube.com/watch?v=3dCt_vDC8Vg \n• Ketik *ex* untuk keluar")
     }
 
     // KONSULTASI STATISTIK
     async k1Menu(request) {
-      return Response.image.fromURL("./image/logo-or-header/konsul-1.png","*Panduan Layanan Konsultasi Statistik Online Maupun Offline* \n\n• Ketik *ex* untuk keluar")
+      return Response.image.fromURL("./image/logo-or-header/konsul-1.png","*Bonus Matrix Plan X3 sebesar 80% omzet* \n\n• Ketik *ex* untuk keluar")
     }
     async k2Menu(request) {
-      return Response.image.fromURL("./image/logo-or-header/konsul-2.png","*Panduan Layanan Konsultasi Statistik Online Maupun Offline* \n\n• Ketik *ex* untuk keluar")
+      return Response.image.fromURL("./image/logo-or-header/konsul-2.png","*Bonus Matrix Plan X6 sebesar 80% omzet* \n\n• Ketik *ex* untuk keluar")
     }
     async k3Menu(request) {
-      return Response.image.fromURL("./image/logo-or-header/konsul-3.png","*Panduan Layanan Konsultasi Statistik Online Maupun Offline* \n\n• Ketik *ex* untuk keluar")
+      return Response.image.fromURL("./image/logo-or-header/konsul-3.png","*Bonus Dividend 20% omzet* \n\n• Ketik *ex* untuk keluar")
     }
     async k4Menu(request) {
       return Response.image.fromURL("./image/logo-or-header/konsul-4.png","*Panduan Layanan Konsultasi Statistik Online Maupun Offline* \n\n• Ketik *ex* untuk keluar")
@@ -254,12 +254,12 @@ module.exports = class BotController extends Controller {
     
     // POJOK STATISTIK
     async pojokStatistikMenu(request) {
-      return this.reply("*Selamat Datang!* \n*Layanan Pojok Statistik 📊* \n\nSilahkan hubungi nomor : \n+62 896-5499-3852 \n• Ketik *ex* untuk keluar")
+      return this.reply("*Selamat Datang!* \n*Cara Pengisian Coin dan Pendaftaran 📊* \n\nSilahkan buka panduannya pada link ini : \nhttps://s.id/regmaticfortunesafepal\n• Ketik *ex* untuk keluar")
     }
 
     // SARAN DAN PENGADUAN
     async saranPengaduanMenu(request) {
-      return this.reply("*Selamat Datang!* \n*Saran dan Pengaduan 💡* \n\nLayanan saran dan pengaduan dapat menghubungi e-mail : \npengaduan3507@bps.go.id \n• Ketik *ex* untuk keluar");
+      return this.reply("*Selamat Datang!* \n*Support dan Pengembangan 💡* \n\nAnda dapat menghubungi pemilik web support ini melalui : \nhtpps://wa.me/6285640955687\n• Ketik *ex* untuk keluar");
     }
     
 }
