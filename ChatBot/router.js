@@ -5,7 +5,10 @@ const f = require("./utils/Formatter");
 const router = new Router();
 
 // ======= PEMBUKA & PENUTUP
-router.keyword("hi", [BotController, "introduction"]);
+router.keyword("hi*",... [BotController, "introduction"]);
+router.keyword("Hallo*",... [BotController, "introduction"]);
+router.keyword("Selamat*",... [BotController, "introduction"]);
+router.keyword("Asalam*",... [BotController, "introduction"]);
 router.keyword("ex", [BotController, "introduction"]);
 router.menu(f("menu.exit"), [BotController, "introduction"]);
 
